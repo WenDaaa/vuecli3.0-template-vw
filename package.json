@@ -24,11 +24,11 @@
     "plugins": {
       "autoprefixer": {},
       "postcss-px-to-viewport": {
-          "viewportWidth": 750,
-          "unitPrecision": 3,
-          "minPixelValue": 1
+        "viewportWidth": 750,
+        "unitPrecision": 3,
+        "minPixelValue": 1
       }
-  }
+    }
   },
   "browserslist": [
     "> 1%",
