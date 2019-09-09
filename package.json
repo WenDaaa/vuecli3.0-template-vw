@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "postcss-px-to-viewport": "^1.1.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
@@ -21,8 +22,13 @@
   },
   "postcss": {
     "plugins": {
-      "autoprefixer": {}
-    }
+      "autoprefixer": {},
+      "postcss-px-to-viewport": {
+          "viewportWidth": 750,
+          "unitPrecision": 3,
+          "minPixelValue": 1
+      }
+  }
   },
   "browserslist": [
     "> 1%",
